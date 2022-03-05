@@ -19,7 +19,7 @@
   　var h=NowDate.getHours();
   　var m=NowDate.getMinutes();
   　var s=NowDate.getSeconds();　
-	document.getElementById('showbox').innerHTML = + y+'/'+mn+'/'+d+'	'+h+':'+m+':'+s;
+	document.getElementById('showbox').innerHTML = + y+'/'+mn+'/'+d+'&amp'+h+':'+m+':'+s;
   　setTimeout('ShowTime()',1000);
   }
   </script>
@@ -61,10 +61,12 @@
 								<tbody>
 									<tr>
 										<td style="text-align: center; vertical-align: middle; font-size: larger;">研討會</td>
-										<td><li>2022 ICSSE</li>
+										<td>
+										<li>2022 ICSSE</li>
 										<li>2022 中研院生醫所/國立陽明交通大學生科院聯合生物醫學嶄新學術研討會 
-											rapid-fire poster presentation 第二名</li>
-										<li>2021 iFUZZY</li></td>	
+											<br> rapid-fire poster presentation 第二名 </br> </li>
+										<li>2021 iFUZZY</li>
+										</td>	
 									</tr>
 									<tr>
 										<td style="text-align: center; vertical-align: middle; font-size: larger;">展覽</td>
